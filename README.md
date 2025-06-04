@@ -1,8 +1,8 @@
 <H3>NAME:ASHWINA K N</H3>
 <H3>REGISTER NO.:212223230025</H3>
-# EX.NO : 3
-# Implementation of MLP for a non-linearly separable data
-## Aim:
+<H3>EX.NO : 3</H3>
+<H3>Implementation of MLP for a non-linearly separable data</H3>
+<H2>Aim:</H2>
 To implement a perceptron for classification using Python
 ## Theory:
 Exclusive or is a logical operation that outputs true when the inputs differ.For the XOR gate, the TRUTH table will be as follows:
@@ -21,7 +21,7 @@ The inner layers for deeper processing of the inputs are known as hidden layers.
 ![Img 4](https://user-images.githubusercontent.com/112920679/195775183-1f64fe3d-a60e-4998-b4f5-abce9534689d.gif)
 The number of layers in MLP is not fixed and thus can have any number of hidden layers for processing. In the case of MLP, the weights are defined for each hidden layer, which transfers the signal to the next proceeding layer.Using the MLP approach lets us dive into more than two dimensions, which in turn lets us separate the outputs of XOR using multidimensional equations.Each hidden unit invokes an activation function, to range down their output values to 0 or The MLP approach also lies in the class of feed-forward Artificial Neural Network, and thus can only communicate in one direction. MLP solves the XOR problem efficiently by visualizing the data points in multi-dimensions and thus constructing an n-variable equation to fit in the output values using back propagation algorithm
 
-## Algorithm :
+<H2>Algorithm :</H2>
 
 Step 1 : Initialize the input patterns for XOR Gate<BR>
 Step 2: Initialize the desired output of the XOR Gate<BR>
@@ -34,7 +34,7 @@ Step 3: Repeat the  iteration  until the losses become constant and  minimum<BR>
     (v)  Append the losses in a list <BR>
 Step 4 : Test for the XOR patterns.
 
-## Program:
+<H2>Program:</H2>
 ```PY
 import numpy as np
 import pandas as pd
@@ -99,7 +99,7 @@ predict(w1,w2,test)
 test=np.array([[0],[0]])
 predict(w1,w2,test)
 ```
-## Output:
+<H2>Output:</H2>
 
 ![image](https://github.com/arshatha-palanivel/Ex-3-NN/assets/118682484/755200f8-f263-4b2d-ae1e-e1f3e2b8a360)
 
@@ -107,6 +107,6 @@ predict(w1,w2,test)
 ![image](https://github.com/arshatha-palanivel/Ex-3-NN/assets/118682484/6d6df308-21ef-4646-a024-1d814e5d866a)
 
 
-## Result:
+<H2>Result:</H2>
 Thus, XOR classification problem can be solved using MLP in Python.
 
