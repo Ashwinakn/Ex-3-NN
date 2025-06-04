@@ -1,7 +1,7 @@
 <H3>NAME:ASHWINA K N</H3>
 <H3>REGISTER NO.:212223230025</H3>
-<H3>EX.NO : 3</H3>
-<H3>Implementation of MLP for a non-linearly separable data</H3>
+<H1>EX.NO : 3</H1>
+<H1>Implementation of MLP for a non-linearly separable data</H1>
 <H2>Aim:</H2>
 To implement a perceptron for classification using Python
 ## Theory:
