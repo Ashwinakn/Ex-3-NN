@@ -37,11 +37,10 @@ Step 4 : Test for the XOR patterns.
 <H2>Program:</H2>
 ```
 import numpy as np
-
 import pandas as pd
 import io
 import matplotlib.pyplot as plt
-# Initialize the input vector and output vector for XOR
+#Initialize the input vector and output vector for XOR
 x=np.array([[0,0,1,1],[0,1,0,1]])
 y=np.array([[0,1,1,0]])
 #Initialize the structure of  MLP with input ,hidden  and output layer
@@ -50,7 +49,7 @@ n_y = 1
 n_h = 2
 m = x.shape[1]
 lr = 0.1 
-# Weight matrix for hidden layer randomly
+#Weight matrix for hidden layer randomly
 w1 = np.random.rand(n_h,n_x)   # Weight matrix for hidden layer
 w2 = np.random.rand(n_y,n_h)  # Weight matrix for output layer
 losses = []
